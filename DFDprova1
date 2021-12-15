@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T23:23:59.382Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61" etag="fmSBFAOfSWz_WqrAPZGX" version="15.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-16T00:26:48.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 OPR/81.0.4196.61" etag="QGwJFiXOn2XJpsW5RAUn" version="15.9.5" type="github">
   <diagram id="ou-L2rDG64TcPYDUdLf3" name="Page-1">
     <mxGraphModel dx="1841" dy="1769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="plCGB6bo1Kx-BFizW90K-3" value="&#xa;&#xa;&lt;table class=&quot;rich-table tabelaQuestionario&quot; id=&quot;form:dataTableQuestionario&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;margin: 0px; padding: 0px; border-collapse: collapse; border-top: 1px solid rgb(192, 192, 192); border-left: 1px solid rgb(192, 192, 192); background-color: rgb(255, 255, 255); empty-cells: show; color: rgb(0, 0, 0); font-family: verdana, sans-serif; font-size: 11.2px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-transform: none; word-spacing: 0px;&quot;&gt;&lt;colgroup span=&quot;0&quot; style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;/colgroup&gt;&lt;tbody id=&quot;form:dataTableQuestionario:tb&quot; style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;tr class=&quot;rich-table-row rich-table-firstrow linhaPar&quot; style=&quot;margin: 0px ; padding: 0px ; background-color: rgb(249 , 251 , 253)&quot;&gt;&lt;td class=&quot;rich-table-cell &quot; id=&quot;form:dataTableQuestionario:0:j_id_jsp_1448339604_249&quot; style=&quot;margin: 0px ; padding: 4px ; border-right: 1px solid rgb(192 , 192 , 192) ; border-bottom: 1px solid rgb(192 , 192 , 192) ; font-size: 11px ; color: rgb(0 , 0 , 0) ; font-family: &amp;quot;arial&amp;quot; , &amp;quot;verdana&amp;quot; , sans-serif&quot;&gt;&lt;span class=&quot;pergunta&quot; style=&quot;margin: 0px ; padding: 0px ; font-weight: bold&quot;&gt;1. Elabore o DFD para um sistema que atenda as necessidades de uma biblioteca, controlando as locações efetuadas, usuários e livros pendentes.&lt;/span&gt;&lt;span class=&quot;descricaoPergunta&quot; style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;p style=&quot;margin: 0px ; padding: 0px&quot;&gt;Esse software tem como finalidade obter o atendimento rápido e eficaz, para que o atendente e o usuário fiquem satisfeitos com o resultado.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; padding: 0px&quot;&gt;Ele irá controlar as entradas e saídas de livros para locação, o mesmo deverá efetuar uma consulta e informar se o livro está disponível para locação, caso não deverá retornar uma mensagem informando que está locado.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; padding: 0px&quot;&gt;Cada livro terá um código para identificação (chave primária) e esse código deverá ser único. Assim acontecerá com os usuários cadastrados, cada código deverá ser único para facilidade na pesquisa, tanto de usuário quanto de livro.&amp;nbsp;&lt;/p&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&#xa;&#xa;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="10" width="350" height="30" as="geometry" />
+          <mxGeometry x="-510" y="40" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-4" target="plCGB6bo1Kx-BFizW90K-8">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-4" target="plCGB6bo1Kx-BFizW90K-8">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="373" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="260" y="373" />
+              <mxPoint x="280" y="388" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-27" value="StatusLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-12">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-27" value="StatusLivro#PK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#2D03FF;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-12">
           <mxGeometry x="-0.1371" y="-1" relative="1" as="geometry">
             <mxPoint x="-31" as="offset" />
           </mxGeometry>
@@ -23,12 +23,12 @@
         <mxCell id="plCGB6bo1Kx-BFizW90K-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-4" target="plCGB6bo1Kx-BFizW90K-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="260" y="200" />
-              <mxPoint x="20" y="200" />
+              <mxPoint x="260" y="220" />
+              <mxPoint x="40" y="220" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-37" value="Livro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-36">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-37" value="Livro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#00CC00;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-36">
           <mxGeometry x="-0.0516" y="1" relative="1" as="geometry">
             <mxPoint x="2" as="offset" />
           </mxGeometry>
@@ -36,29 +36,47 @@
         <mxCell id="plCGB6bo1Kx-BFizW90K-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;Livros&lt;/font&gt;&lt;/b&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="259.90999999999997" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" target="plCGB6bo1Kx-BFizW90K-22">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;fillColor=#2200FF;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-5" target="plCGB6bo1Kx-BFizW90K-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-340.0000000000002" y="380" as="sourcePoint" />
             <mxPoint x="-160" y="580.09" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-360" y="380.09000000000003" />
+              <mxPoint x="-410" y="365" />
+              <mxPoint x="-410" y="365" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-49" value="RequerimentoLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#2D03FF;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-9">
+          <mxGeometry x="-0.0791" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=15;fontColor=#2D03FF;fillColor=#2200FF;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-5" target="plCGB6bo1Kx-BFizW90K-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="395" />
+              <mxPoint x="-410" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-51" value="IDUsuario#PK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#2D03FF;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-50">
+          <mxGeometry x="-0.1077" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="plCGB6bo1Kx-BFizW90K-5" value="&lt;b&gt;Usuario&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-570" y="350.00000000000006" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-8" target="plCGB6bo1Kx-BFizW90K-4">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.335;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-8" target="plCGB6bo1Kx-BFizW90K-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="9.999984687497317" y="355.0049999999999" as="sourcePoint" />
             <mxPoint x="190" y="290" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="60" y="332" />
-              <mxPoint x="60" y="290" />
+              <mxPoint x="68" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-19" value="SolicitaLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-11">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-19" value="SolicitaLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#2D03FF;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-11">
           <mxGeometry x="0.2556" y="2" relative="1" as="geometry">
             <mxPoint x="-8" y="2" as="offset" />
           </mxGeometry>
@@ -66,57 +84,60 @@
         <mxCell id="plCGB6bo1Kx-BFizW90K-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-8" target="plCGB6bo1Kx-BFizW90K-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-8" y="270" />
-              <mxPoint x="-190" y="270" />
+              <mxPoint x="-8" y="332" />
+              <mxPoint x="-8" y="290" />
+              <mxPoint x="-190" y="290" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-29" value="StatusLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-28">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-29" value="StatusLivJaAlocPorUsu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#FF0000;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-28">
           <mxGeometry x="-0.2578" y="4" relative="1" as="geometry">
-            <mxPoint x="-33" y="-4" as="offset" />
+            <mxPoint x="-46" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.886;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-8" target="plCGB6bo1Kx-BFizW90K-22">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.867;entryY=1.054;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-8" target="plCGB6bo1Kx-BFizW90K-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="10" y="430" as="sourcePoint" />
+            <mxPoint x="-200" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="460" />
-              <mxPoint x="-174" y="460" />
+              <mxPoint x="40" y="440" />
+              <mxPoint x="-176" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-41" value="LivroAlocado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-40">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-41" value="LivroAlocado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#00CC00;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-40">
           <mxGeometry x="0.2432" y="3" relative="1" as="geometry">
             <mxPoint x="19" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-8" value="Alocar&lt;br&gt;Livros" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="319.90999999999997" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.014;entryY=0.623;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-22" target="plCGB6bo1Kx-BFizW90K-8">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0.328;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-8" target="plCGB6bo1Kx-BFizW90K-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-30" y="370" as="targetPoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-30" y="370" />
+              <mxPoint x="239" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-42" value="SolicitaLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-24">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-46" value="StatusLivJaAlocPorUsu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#FF0000;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-43">
+          <mxGeometry x="-0.1175" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-8" value="Alocar&lt;br&gt;Livros" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry y="319.90999999999997" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-22" target="plCGB6bo1Kx-BFizW90K-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-19" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-120" y="360" />
+              <mxPoint x="-120" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-42" value="SolicitaLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#2D03FF;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-24">
           <mxGeometry x="-0.1888" y="3" relative="1" as="geometry">
             <mxPoint x="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-22" target="plCGB6bo1Kx-BFizW90K-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-250" y="450" />
-              <mxPoint x="-510" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-35" value="StatusLivro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-33">
-          <mxGeometry x="-0.0824" y="4" relative="1" as="geometry">
-            <mxPoint x="-20" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="plCGB6bo1Kx-BFizW90K-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=15;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-22" target="plCGB6bo1Kx-BFizW90K-5">
@@ -127,27 +148,102 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-39" value="LivroAlocado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-38">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-39" value="LivroAlocado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#00CC00;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-38">
           <mxGeometry x="-0.1559" y="1" relative="1" as="geometry">
             <mxPoint x="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#2D03FF;fillColor=#2200FF;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-22" target="plCGB6bo1Kx-BFizW90K-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-270" y="460" />
+              <mxPoint x="-510" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontSize=15;fontColor=#2D03FF;fillColor=#2200FF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="plCGB6bo1Kx-BFizW90K-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370.00000000000006" y="558.7200000000003" as="targetPoint" />
+            <mxPoint x="-247.03999999999976" y="410" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-237" y="410" />
+              <mxPoint x="-237" y="500" />
+              <mxPoint x="-350" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-55" value="IDUsuario" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#2D03FF;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-52">
+          <mxGeometry x="0.3485" y="1" relative="1" as="geometry">
+            <mxPoint x="14" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;fillColor=#2200FF;" edge="1" parent="1" target="plCGB6bo1Kx-BFizW90K-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="400" />
+              <mxPoint x="12" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-59" value="&lt;font color=&quot;#2d03ff&quot;&gt;UsuarioAutenticado&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-58">
+          <mxGeometry x="-0.2904" y="3" relative="1" as="geometry">
+            <mxPoint x="21" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="plCGB6bo1Kx-BFizW90K-22" value="&lt;b&gt;Atendente&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-280" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-5">
+        <mxCell id="plCGB6bo1Kx-BFizW90K-48" value="StatusLivroJaAlocado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#FF0000;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-379.9992712339934" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.925;exitY=0.245;exitDx=0;exitDy=0;fontSize=15;fontColor=#2D03FF;fillColor=#2200FF;exitPerimeter=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-56">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-449.9999999999998" y="380" as="sourcePoint" />
-            <mxPoint x="-400.0000000000002" y="380" as="targetPoint" />
+            <mxPoint x="-191.7157287525381" y="531.7157287525381" as="sourcePoint" />
+            <mxPoint x="-200" y="410" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-360" y="380.09000000000003" />
+              <mxPoint x="-316" y="540" />
+              <mxPoint x="-200" y="540" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="plCGB6bo1Kx-BFizW90K-32" value="&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;RequerimentoLivro&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-30">
-          <mxGeometry x="0.3846" y="-1" relative="1" as="geometry">
-            <mxPoint x="-10" y="1" as="offset" />
+        <mxCell id="plCGB6bo1Kx-BFizW90K-57" value="&lt;font color=&quot;#2d03ff&quot;&gt;UsuarioAutenticado&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-54">
+          <mxGeometry x="-0.283" y="2" relative="1" as="geometry">
+            <mxPoint x="17" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.953;exitY=0.833;exitDx=0;exitDy=0;fontSize=15;fontColor=#2D03FF;fillColor=#2200FF;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-56" target="plCGB6bo1Kx-BFizW90K-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-279.97572875254104" y="618.2842712474585" as="sourcePoint" />
+            <mxPoint x="-170" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-314" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-63" value="&lt;font color=&quot;#2d03ff&quot;&gt;IDUsuario&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-61">
+          <mxGeometry x="-0.1226" y="-1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-56" value="Autenticar&lt;br&gt;Usuario" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=0;fontSize=15;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.191;exitDx=0;exitDy=0;entryX=0.941;entryY=0.266;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;fontColor=#2D03FF;fillColor=#2200FF;exitPerimeter=0;" edge="1" parent="1" source="plCGB6bo1Kx-BFizW90K-60" target="plCGB6bo1Kx-BFizW90K-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-65" value="&lt;font color=&quot;#2d03ff&quot;&gt;UsuarioAutenticado&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontColor=#000000;" vertex="1" connectable="0" parent="plCGB6bo1Kx-BFizW90K-62">
+          <mxGeometry x="0.2352" relative="1" as="geometry">
+            <mxPoint x="10" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-60" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Usuarios&lt;/b&gt;&lt;/font&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;shadow=0;fontSize=15;fontColor=#2D03FF;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plCGB6bo1Kx-BFizW90K-64" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Legenda:&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Azul: Ocorre em todas a iterações do sistema&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Vermelho: Ocorrem em Iterações negativas de retirada de livros&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;Verde: Ocorrem em iterações de positivas de retirada dos livros&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontColor=#2D03FF;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="470" width="440" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
