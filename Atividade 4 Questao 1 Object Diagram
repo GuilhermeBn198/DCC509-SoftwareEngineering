@@ -1,1 +1,171 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T01:25:11.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.46" version="16.5.6" etag="sjPXvLdz9aZY13m7ovy8" type="github"><diagram id="8TNpwTXmAx4sDaQUrENb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-16T02:52:03.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 OPR/83.0.4254.46" etag="yWmJnRMksPF6GoW_vIZL" version="16.5.6" type="github">
+  <diagram id="8TNpwTXmAx4sDaQUrENb" name="Page-1">
+    <mxGraphModel dx="2351" dy="1869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-1" value="Cleber: Cliente" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="238" width="300" height="162" as="geometry">
+            <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-2" value="- conta = 10928102" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-1">
+          <mxGeometry y="20" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-3" value="- agencia = 01928" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-1">
+          <mxGeometry y="46" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-4" value="- limiteDiario = 2000.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-1">
+          <mxGeometry y="72" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-5" value="- saldoCliente = 10000.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-1">
+          <mxGeometry y="98" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-6" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-1">
+          <mxGeometry y="124" width="300" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-7" value="+ realizarSaque(2500.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-1">
+          <mxGeometry y="136" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-8" value="Caixa1: SistemaDoCaixaEletronico" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="120" width="450" height="398" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-9" value="- saldoCaixa = 50000.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="26" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-10" value="- cedulas100 = 100" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="52" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-50" value="- cedulas50 = 0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="78" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-51" value="- cedulas20 = 0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="104" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-11" value="- horario = 15:20" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="130" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-12" value="- quantiaDeSaque = 2500.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="156" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-13" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="182" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-14" value="+ validarUser(10928102, 01928)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="190" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-15" value="- verifySaldoUser(10000.0, 2500.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="216" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-16" value="- verifySaldoCaixa(10000.0,50000.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="242" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-53" value="- verifyCedulas(100, 0, 0, 2500)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="268" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-18" value="- verifyHorarioComercial(15:20)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="294" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-19" value="- verifyLimiteDiario(2500.0, 2000)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="320" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-20" value="- showError()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="346" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-21" value="- finishSaque()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry y="372" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-25" value="&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-family: &amp;#34;verdana&amp;#34; , sans-serif ; font-size: 11.2px ; text-align: justify ; text-indent: -18pt ; background: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-stretch: normal ; font-size: 7pt ; line-height: normal ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;O cliente deve estar validado para realizar o Saque. A operação de um caixa eletrônico tem início a partir de uma sessão em que o cliente seleciona a opção de realizar saque. O cliente então digita uma quantia a ser retirada.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-size: medium ; font-family: &amp;#34;times new roman&amp;#34; , serif ; text-align: justify ; background-color: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;O sistema verifica se a conta correspondente tem saldo suficiente para satisfazer a requisição. Senão, uma mensagem adequada é reportada, o que acarreta no fim do saque.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-size: medium ; font-family: &amp;#34;times new roman&amp;#34; , serif ; text-align: justify ; background-color: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Além desta verificação também são analisados:&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-size: medium ; font-family: &amp;#34;times new roman&amp;#34; , serif ; text-align: justify ; background-color: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;O caixa eletrônico tem saldo para confirmar o saque?&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-size: medium ; font-family: &amp;#34;times new roman&amp;#34; , serif ; text-align: justify ; background-color: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;O caixa eletrônico tem cédulas compatíveis?&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-size: medium ; font-family: &amp;#34;times new roman&amp;#34; , serif ; text-align: justify ; background-color: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;O saque está sendo realizado no período entre 06h00min e 22h00min?&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0cm 0cm 0cm 54pt ; padding: 0px ; font-size: medium ; font-family: &amp;#34;times new roman&amp;#34; , serif ; text-align: justify ; background-color: white&quot;&gt;&lt;span style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;O valor do saque solicitado, somado aos valores de saques anteriores do dia estão dentro do limite diário de R$ 2000,00?&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-200" width="1210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5nTlMyYulN7jcYiRxBuu-1" target="5nTlMyYulN7jcYiRxBuu-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-28" value="Tina: Cliente" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="678" width="300" height="162" as="geometry">
+            <mxRectangle x="220" y="120" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-29" value="- conta = 1038092" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-28">
+          <mxGeometry y="20" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-30" value="- agencia = 19282" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-28">
+          <mxGeometry y="46" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-31" value="- limiteDiario = 2000.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-28">
+          <mxGeometry y="72" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-32" value="- saldoCliente = 222.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-28">
+          <mxGeometry y="98" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-33" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-28">
+          <mxGeometry y="124" width="300" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-34" value="+ realizarSaque(200.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-28">
+          <mxGeometry y="136" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-49" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5nTlMyYulN7jcYiRxBuu-28" target="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="724" as="sourcePoint" />
+            <mxPoint x="430" y="763.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-58" value="Caixa2: SistemaDoCaixaEletronico" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="560" width="450" height="398" as="geometry">
+            <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-59" value="- saldoCaixa = 50000.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="26" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-60" value="- cedulas100 = 20" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="52" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-61" value="- cedulas50 = 2" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="78" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-62" value="- cedulas20 = 50" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="104" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-63" value="- horario = 12:20" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="130" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-64" value="- quantiaDeSaque = 200.0" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="156" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-65" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="182" width="450" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-66" value="+ validarUser(1038092, 19282)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="190" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-67" value="- verifySaldoUser(222.0, 200.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="216" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-68" value="- verifySaldoCaixa(200.0, 50000.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="242" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-69" value="- verifyCedulas(20, 2, 50, 200.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="268" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-70" value="- verifyHorarioComercial(12:20)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="294" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-71" value="- verifyLimiteDiario(200, 2000.0)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="320" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-72" value="- showError()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="346" width="450" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5nTlMyYulN7jcYiRxBuu-73" value="- finishSaque()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="5nTlMyYulN7jcYiRxBuu-58">
+          <mxGeometry y="372" width="450" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
